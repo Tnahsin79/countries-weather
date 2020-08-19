@@ -31,7 +31,8 @@ function card(result)
         col1.setAttribute("class","col col-lg-4 col-sm-12");
         var card1=document.createElement("div");
         card1.setAttribute("class","card");
-        var name1=document.createElement("h5");
+        var name1=document.createElement("div");
+        name1.setAttribute("class","card-header");
         name1.innerText=result[i].name;
         var body1=document.createElement("div");
         body1.setAttribute("class","card-body");

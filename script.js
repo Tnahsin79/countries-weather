@@ -28,7 +28,7 @@ function card(result)
         for(j=0;j<3;j++)
         {
         var col1=document.createElement("div");
-        col1.setAttribute("class","col col-lg-4 col-sm-12");
+        col1.setAttribute("class","col-lg-4 col-sm-12 col col-12");
         var card1=document.createElement("div");
         card1.setAttribute("class","card");
         var name1=document.createElement("div");

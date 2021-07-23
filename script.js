@@ -41,6 +41,8 @@ function card(result)
         img1.setAttribute("src",result[i].flag);
         var capital1=document.createElement("p");
         capital1.innerText="Capital: "+result[i].capital;
+        var currency1=document.createElement("p");
+        currency1.innerText="Currency: "+result[i].currencies.name;
         var region1=document.createElement("p");
         region1.innerText="Region: "+result[i].region;
         var latlng1=document.createElement("p");
@@ -61,6 +63,7 @@ function card(result)
         card1.appendChild(body1);
         body1.appendChild(img1);
         body1.appendChild(capital1);
+        body1.appendChild(currency1);
         body1.appendChild(region1);
         body1.appendChild(latlng1);
         body1.appendChild(code1);

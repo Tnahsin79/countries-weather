@@ -42,7 +42,7 @@ function card(result)
         var capital1=document.createElement("p");
         capital1.innerText="Capital: "+result[i].capital;
         var currency1=document.createElement("p");
-        currency1.innerText="Currency: "+result[i].currencies.name;
+        currency1.innerText="Currency: "+result[i].currencies[0].name;
         var region1=document.createElement("p");
         region1.innerText="Region: "+result[i].region;
         var latlng1=document.createElement("p");
